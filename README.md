@@ -136,6 +136,95 @@ Este documento não deve ser interpretado como um prospecto ou uma oferta de val
 |                       |                                                                           |
 | **Bloqueio na Pool**  | Os tokens serão bloqueados na Pool de Liquidez, garantindo taxas de rendimento para o Fundo Mundo Digital.                                      |
 
+
+# ASPPIBRA (ASPPBR)
+Repository of ERC20 standard public smart contracts implemented on the BEP20 standard Binance Smart Chain Blockchain with US dollar (USDT) collateral issued by Tether.
+
+## ABI, address and verification
+
+The abi contract is in `ASPPBR.abi`. It is the abi of the implementation contract.
+Interaction with ASPPBR is done at the contract address at `0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C`. To see
+https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code#L1 for live on-chain details and the section on bytecode verification below.
+
+
+## Contract specification
+
+ASPPIBRA (ASPPBR) is a BEP20 token that is centrally minted by ASPPIBRA-DAO,
+representing the trusted party backing the token in (USDT) US dollars issued by Tether. 
+
+### BEP20 Token
+
+The public interface of ASPPBR is the BEP20 interface
+specified by [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md).
+
+- `name()`
+- `symbol()`
+- `decimals()`
+- `totalSupply()`
+- `balanceOf(address who)`
+- `transfer(address to, uint256 value)`
+- `approve(address spender, uint256 value)`
+- `allowance(address owner, address spender)`
+- `transferFrom(address from, address to, uint256 value)`
+
+And the usual events.
+
+- `event Transfer(address indexed from, address indexed to, uint256 value)`
+- `event Approval(address indexed owner, address indexed spender, uint256 value)`
+
+Typical interaction with the contract will use `transfer` to move the token as payment.
+Additionally, a pattern involving `approve` and `transferFrom` can be used to allow another 
+address to move tokens from your address to a third party without the need for the middleperson 
+to custody the tokens, such as in the 0x protocol. 
+
+#### Warning about ERC20 approve front-running
+
+There is a well known gotcha involving the ERC20 `approve` method. The problem occurs when the owner decides
+to change the allowance of a spender that already has an allowance. If the spender sends a `transferFrom` 
+transaction at a similar time that the owner sends the new `approve` transaction
+and the `transferFrom` by the spender goes through first, then the spender gets to use the 
+original allowance, and also get approved for the intended new allowance.
+
+The recommended mitigation in cases where the owner does not trust the spender is to
+first set the allowance to zero before setting it to a new amount, checking that the 
+allowance was not spent before sending the new approval transaction. Note, however, that any 
+allowance change is subject to front-running, which is as simple as watching the 
+mempool for certain transactions and then offering a higher gas price to get another 
+transaction mined onto the blockchain more quickly.
+
+
+## Bytecode check
+
+The proxy contract and implementation contracts are verified on etherscan at the following links:
+Token:
+https://bscscan.com/bytecode-decompiler?a=0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c
+
+proxy: Coming soon!!
+
+Since the implementation address in the proxy is a private variable,
+verifying that this is the proxy being used requires reading the contract
+storage directly. This can be done using a mainnet node such as infura,
+pasting the network address into `truffle-config.js` and running
+
+`truffle exec ./getImplementationAddress.js --network mainnet`
+
+## Contract Tests
+
+As a first step, perform the initial configuration
+
+`make configuration`
+
+Then, to run the smart contract tests, in another terminal, launch ganache-cli
+
+`make ganache`
+
+Then, in the original terminal where the configuration was performed, run
+
+`make test contracts`
+
+You can also run `make test-contracts-coverage` to see a coverage report.
+
+
 ## <h2 align="center">🎁 Doe Crypto:</h2>
 
 <div style="display: inline_block"><br>
