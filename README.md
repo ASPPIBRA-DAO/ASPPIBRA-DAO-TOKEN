@@ -89,9 +89,9 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 |   |   |
 | **Liquidez**                  | Os recursos serão mantidos como fundo para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
 
-# ASPPIBRA (ASPPBR)
+# Visão Geral dos Smart Contracts
 
-Repositório de contratos inteligentes públicos padrão ERC20 implementados no padrão BEP20 Binance Smart Chain Blockchain com garantia em dólares americanos (USDT) emitida pela Tether.
+Este repositório público contém os contratos inteligentes utilizados pela **ASPPIBRA-DAO**, implementados na Blockchain Binance Smart Chain sob o padrão BEP20. Os tokens são colateralizados em dólares americanos tokenizados pela empresa Tether, com o símbolo USDT, onde cada token USDT representa um dólar americano. Esta documentação técnica serve como um complemento ao tokenomics, proporcionando uma análise detalhada dos processos utilizados pela **ASPPIBRA-DAO** na construção de seu ecossistema, conhecido como **Mundo Digital**.
 
 ## ABI, endereço e verificação
 
