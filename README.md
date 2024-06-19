@@ -93,10 +93,9 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 
 Este repositório público contém os contratos inteligentes utilizados pela **ASPPIBRA-DAO**, implementados na Blockchain Binance Smart Chain sob o padrão BEP20. Os tokens são colateralizados em dólares americanos tokenizados pela empresa Tether, com o símbolo USDT, onde cada token USDT representa um dólar americano. Esta documentação técnica serve como um complemento ao tokenomics, proporcionando uma análise detalhada dos processos utilizados pela **ASPPIBRA-DAO** na construção de seu ecossistema, conhecido como **Mundo Digital**.
 
-## ABI, endereço e verificação
+## ABI, Endereço e Verificação
 
-O contrato abi está em `ASPPBR.abi`. É o abi do contrato de implementação.
-A interação com o ASPPBR é feita no endereço do contrato em [0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C](https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code) para obter detalhes ao vivo na cadeia e a seção sobre verificação de bytecode abaixo.
+O ABI do contrato está disponível em `ASPPBR.abi`, representando a interface do contrato de implementação. A interação com o token ASPPBR é feita através do endereço do contrato [0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C](https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code). Para mais detalhes em tempo real e verificação do bytecode, consulte o link fornecido.
 
 ## Interface Pública do Token ASPPBR
 
