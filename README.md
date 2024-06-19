@@ -41,10 +41,10 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 |                                      |                                                                           |
 | Quantidade em Circulação             | 4.665 tokens                                                              |
 |                                      |                                                                           |
-| Pool de Liquidez V2                  | ASPPBR-WBNB (Pancakeswap): 0.02 tokens                                   |
-|                                      |                                                                           |
-| Pool de Liquidez V2                  | ASPPBR-USDT (Pancakeswap): 530 tokens                                   |
-|                                      |                                                                           |
+| Pool de Liquidez V2                  | [ASPPBR-WBNB](https://pancakeswap.finance/info/pairs/0xb9a2b08be15dc15e531b0d25b3942268da27b100) (Pancakeswap): 0.02 tokens                                 |
+|                                      |                                                                                                    |
+| Pool de Liquidez V2                  | [ASPPBR-USDT](https://pancakeswap.finance/info/pairs/0x4f287dd8b2b02aa8885ab9c6ddce876d1031268b) (Pancakeswap): 530 tokens                                 |
+|                                      |                                                                                                    |
 | Pool de Liquidez V2                  | [ASPPBR-CTK](https://pancakeswap.finance/info/pairs/0x3dac89c0c868eb9f835d97e1fdb702b6fd6ae38e) (Pancakeswap): 1.892 tokens                                 |
 |                                      |                                                                                                    |
 | Pool de Liquidez V2                  | [ASPPBR-FIL](https://pancakeswap.finance/info/pairs/0x25af0ac22fdc2a408ef07fcb795c516b3a0f3858) (Pancakeswap): 357 tokens                                 |
