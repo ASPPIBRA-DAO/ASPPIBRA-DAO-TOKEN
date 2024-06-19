@@ -41,13 +41,13 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 |                                      |                                                                           |
 | Quantidade em Circulação             | 4.665 tokens                                                              |
 |                                      |                                                                           |
-| Pool de Liquidez V2                  | ASPPBR-WBNB (Pancakeswap): 1.129 tokens                                   |
+| Pool de Liquidez V2                  | ASPPBR-WBNB (Pancakeswap): 0.02 tokens                                   |
 |                                      |                                                                           |
-| Pool de Liquidez V2                  | ASPPBR-USDT (Pancakeswap): 1.604 tokens                                   |
+| Pool de Liquidez V2                  | ASPPBR-USDT (Pancakeswap): 530 tokens                                   |
 |                                      |                                                                           |
-| Pool de Liquidez V2                  | ASPPBR-CTK (Biswap): 1.240 tokens                                         |
+| Pool de Liquidez V2                  | ASPPBR-CTK (Pancakeswap): 1.892 tokens                                         |
 |                                      |                                                                           |
-| Pool de Liquidez V2                  | ASPPBR-TWT (Pancakeswap): 692 tokens                                      |
+| Pool de Liquidez V2                  | ASPPBR-FIL (Pancakeswap): 357 tokens                                      |
 |                                      |                                                                           |
 | Permissão para criar novos tokens    | Não                                                                       |
 |                                      |                                                                           |
