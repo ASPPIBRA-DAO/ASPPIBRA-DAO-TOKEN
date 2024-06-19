@@ -99,15 +99,9 @@ O contrato abi está em `ASPPBR.abi`. É o abi do contrato de implementação.
 A interação com o ASPPBR é feita no endereço do contrato em `0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C`. Ver
 <https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code#L1> para obter detalhes ao vivo na cadeia e a seção sobre verificação de bytecode abaixo.
 
-## Especificação do contrato
+## Interface Pública do Token ASPPBR
 
-ASPPIBRA (ASPPBR) é um token BEP20 cunhado centralmente pela ASPPIBRA-DAO,
-representando a parte confiável que respalda o token em dólares americanos (USDT) emitido pela Tether.
-
-### Token BEP20
-
-A interface pública do ASPPBR é a interface BEP20
-especificado por [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md).
+A interface pública do token ASPPBR segue o padrão BEP-20, conforme especificado pelo [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md).
 
 - `nome()`
 - `símbolo()`
