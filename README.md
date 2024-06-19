@@ -56,9 +56,8 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 | Quantidade Total (Max Supply)        | 21.000.000                                                                |
 |                                      |                                                                           |
 | Explorador Binance Smart Chain       | [Token ASPPBR no BSC](https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c) |
-|                                     | Distribuição dos Tokens                             |
-|-------------------------------------|----------------------------------------------------------------------------|
-|                                     |                                                                            |
+|                                     | **Distribuição dos Tokens**                         |
+|                                     |                                                     |
 | **Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000  tokens. |
 |   |   |
 | **Dev** | Destinamos 10% para o time de desenvolvimento, totalizando 2.100.000  tokens. |
@@ -79,8 +78,7 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 |                                     |                                                                            |
 | **Objetivo:**                       | Nosso objetivo principal é estabelecer um ecossistema sustentável e próspero para os usuários e associados da ASPPIBRA-DAO, permitindo que indivíduos e organizações se envolvam ativamente nos projetos e contribuam para seu sucesso a longo prazo. |
 |                                     |                                                                            |
-|                                | Alocação de Fundos                                                                                                                       |
-|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                | **Alocação de Fundos**                                     |
 |   |   |
 | **Distribuição Primária**     | 100% dos recursos gerados serão destinados ao fundo Mundo Digital.                                                                                             |
 |   |   |
