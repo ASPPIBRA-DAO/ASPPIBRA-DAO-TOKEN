@@ -24,9 +24,9 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 
 É importante ressaltar que os tokens digitais **ASPPBR** não possuem a natureza de títulos, conforme definido pelo artigo 2º da Lei Nº 6.385 de 7 de dezembro de 1976, que dispõe sobre o mercado de valores mobiliários. Além disso, destaca-se que esses tokens não estão registrados como valores mobiliários em qualquer agência governamental e não devem ser tratados como tal.
 
-# <h2 align="center">Explorando Métricas e Gráficos:</h2>
+# <h2 align="center"></h2>
 
-| Detalhes do Token                    |                                                                           |
+|                     | Detalhes do Token                                  |
 |--------------------------------------|---------------------------------------------------------------------------|
 |                                      |                                                                           |
 | Padrão do Token                      | BEP-20                                                                    |
