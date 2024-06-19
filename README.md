@@ -71,9 +71,11 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 | Distribuição de Tokens              | Oferta Total: 21.000.000 de tokens                                         |
 |-------------------------------------|----------------------------------------------------------------------------|
 |                                     |                                                                            |
-| **Distribuição para Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000 de tokens. |
-| **Distribuição para Desenvolvimento** | Destinamos 10% para o time de desenvolvimento, totalizando 2.100.000 de tokens. |
-| **Pool de Liquidez**                | Destinamos 30% para o pool de liquidez, totalizando 6.300.000 de tokens, para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
+| **Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000  tokens. |
+|   |   |
+| **Dev** | Destinamos 10% para o time de desenvolvimento, totalizando 2.100.000  tokens. |
+|   |   |
+| **Pool de Liquidez**                | Destinamos 30% para o pool de liquidez, totalizando 6.300.000 tokens, para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
 |                                     |                                                                            |
 | **Fases de Distribuição:**          | A distribuição dos tokens para os associados ocorrerá em quatro fases, conforme descrito abaixo: |
 |                                     |                                                                            |
