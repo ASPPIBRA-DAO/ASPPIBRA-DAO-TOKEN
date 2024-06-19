@@ -96,8 +96,7 @@ Este repositório público contém os contratos inteligentes utilizados pela **A
 ## ABI, endereço e verificação
 
 O contrato abi está em `ASPPBR.abi`. É o abi do contrato de implementação.
-A interação com o ASPPBR é feita no endereço do contrato em `0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C`. Ver
-<https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code#L1> para obter detalhes ao vivo na cadeia e a seção sobre verificação de bytecode abaixo.
+A interação com o ASPPBR é feita no endereço do contrato em [0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C](https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code) para obter detalhes ao vivo na cadeia e a seção sobre verificação de bytecode abaixo.
 
 ## Interface Pública do Token ASPPBR
 
