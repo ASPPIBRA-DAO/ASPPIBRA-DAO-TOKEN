@@ -93,19 +93,6 @@ Este documento não deve ser interpretado como um prospecto ou uma oferta de val
 | **Liquidez**                  | Os recursos serão mantidos como fundo para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
 |
 
-# <h2 align="center">Pools de Liquidez:</h2>
-
-| Objetivo              | Proporcionar um ambiente estável e seguro para usuários, associados e profissionais conectarem-se com aqueles que buscam parcerias, serviços e produtos. O projeto desenvolve serviços descentralizados para oferecer segurança, transparência e precisão. A Pool de Liquidez descentralizada estará acessível a todos os participantes, respaldada por 6.300.000 tokens permanentemente alocados para garantir liquidez infinita. Esta alocação inclui: |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                       |                                                                           |
-| **Tokens Alocados**   | 6.300.000 tokens permanentemente alocados para liquidez.                                 |
-|                       |                                                                           |
-| **Inclui**            | - 20% dos tokens do fundo perpétuo.                                                      |
-|                       |                                                                           |
-|                       | - 10% dos tokens destinados ao setor de Recursos Humanos (RH).                           |
-|                       |                                                                           |
-| **Bloqueio na Pool**  | Os tokens serão bloqueados na Pool de Liquidez, garantindo taxas de rendimento para o Fundo Mundo Digital.                                      |
-
 # ASPPIBRA (ASPPBR)
 
 Repository of ERC20 standard public smart contracts implemented on the BEP20 standard Binance Smart Chain Blockchain with US dollar (USDT) collateral issued by Tether.
