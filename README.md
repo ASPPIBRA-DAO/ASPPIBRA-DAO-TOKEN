@@ -100,7 +100,6 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 | **Objetivo do Fundo**         | Financiar as despesas e custos de manutenção para a implementação do projeto.                                                                                  |
 | **Reabastecimento do Fundo**  | - Mensalidades dos membros. <br> - Vendas de créditos de carbono. <br> - Vendas de NFTs. <br> - Taxas cobradas por meio do aplicativo. <br> - Prestação de serviços e consultoria. <br> - Parcerias com o setor privado. |
 | **Liquidez**                  | Os recursos serão mantidos como fundo para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
-|
 
 # ASPPIBRA (ASPPBR)
 
