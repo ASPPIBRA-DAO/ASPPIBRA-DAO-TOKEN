@@ -66,9 +66,9 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
     <a href="https://coinmarketcap.com/dexscan/bsc/0x4f287dd8b2b02aa8885ab9c6ddce876d1031268b"><img alt="COINMARKETCAP" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/9968dd77c223dc881dc3f7bf48e557f9d214b266/Svg/Coinmarktcap.svg"></a>
 </div>
 
-<h2 align="center">Distribuição dos Tokens:</h2>
+<h2 align="center"></h2>
 
-| Distribuição de Tokens              | Oferta Total: 21.000.000 de tokens                                         |
+|                                     | Distribuição dos Tokens                             |
 |-------------------------------------|----------------------------------------------------------------------------|
 |                                     |                                                                            |
 | **Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000  tokens. |
@@ -92,9 +92,9 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 | **Objetivo:**                       | Nosso objetivo principal é estabelecer um ecossistema sustentável e próspero para os usuários e associados da ASPPIBRA-DAO, permitindo que indivíduos e organizações se envolvam ativamente nos projetos e contribuam para seu sucesso a longo prazo. |
 |                                     |                                                                            |
 
-# <h2 align="center">Alocação de Fundos:</h2>
+# <h2 align="center"></h2>
 
-| Categoria                     | Descrição                                                                                                                                                      |
+|                                | Alocação de Fundos                                                                                                                       |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   |   |
 | **Distribuição Primária**     | 100% dos recursos gerados serão destinados ao fundo Mundo Digital.                                                                                             |
