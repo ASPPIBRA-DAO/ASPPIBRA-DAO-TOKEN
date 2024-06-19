@@ -26,7 +26,7 @@ Este documento não deve ser interpretado como um prospecto ou uma oferta de val
 |                                      |                                                                           |
 | Padrão do Token                      | BEP-20                                                                    |
 |                                      |                                                                           |
-| Tags                                 | DAPP, DAO, DEFI, NFT                                                      |
+| Tags                                 | DAPP, DAO, DEFI, NFT, RWA                                                      |
 |                                      |                                                                           |
 | Nome do Token                        | ASPPIBRA                                                                  |
 |                                      |                                                                           |
