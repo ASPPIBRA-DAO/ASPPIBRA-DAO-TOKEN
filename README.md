@@ -47,7 +47,7 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 |                                      |                                                                           |
 | Pool de Liquidez V2                  | [ASPPBR-CTK](https://pancakeswap.finance/info/pairs/0x3dac89c0c868eb9f835d97e1fdb702b6fd6ae38e) (Pancakeswap): 1.892 tokens                                 |
 |                                      |                                                                                                    |
-| Pool de Liquidez V2                  | [ASPPBR-FIL](https://pancakeswap.finance/info/pairs/0x25af0ac22fdc2a408ef07fcb795c516b3a0f3858tokens) (Pancakeswap): 357 tokens                                 |
+| Pool de Liquidez V2                  | [ASPPBR-FIL](https://pancakeswap.finance/info/pairs/0x25af0ac22fdc2a408ef07fcb795c516b3a0f3858) (Pancakeswap): 357 tokens                                 |
 |                                      |                                                                                                    |
 | Permissão para criar novos tokens    | Não                                                                       |
 |                                      |                                                                           |
