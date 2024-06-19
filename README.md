@@ -56,6 +56,7 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 | Quantidade Total (Max Supply)        | 21.000.000                                                                |
 |                                      |                                                                           |
 | Explorador Binance Smart Chain       | [Token ASPPBR no BSC](https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c) |
+|                                     |                                                     |
 |                                     | **Distribuição dos Tokens**                         |
 |                                     |                                                     |
 | **Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000  tokens. |
