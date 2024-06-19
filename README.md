@@ -66,27 +66,29 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
     <a href="https://coinmarketcap.com/dexscan/bsc/0x4f287dd8b2b02aa8885ab9c6ddce876d1031268b"><img alt="COINMARKETCAP" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/9968dd77c223dc881dc3f7bf48e557f9d214b266/Svg/Coinmarktcap.svg"></a>
 </div>
 
-# <h2 align="center">Distribuição dos Tokens:</h2>
+<h2 align="center">Distribuição dos Tokens:</h2>
 
 | Distribuição de Tokens              | Oferta Total: 21.000.000 de tokens                                         |
 |-------------------------------------|----------------------------------------------------------------------------|
 |                                     |                                                                            |
-| Distribuição                        | Destinamos 60% para distribuição, totalizando 12.600.000 de tokens.        |
+| **Distribuição para Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000 de tokens. |
+| **Distribuição para Desenvolvimento** | Destinamos 10% para o time de desenvolvimento, totalizando 2.100.000 de tokens. |
+| **Pool de Liquidez**                | Destinamos 30% para o pool de liquidez, totalizando 6.300.000 de tokens, para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
 |                                     |                                                                            |
-| **Fases de Distribuição:**          | A distribuição dos tokens ocorrerá em quatro fases, conforme descrito abaixo:                               |
+| **Fases de Distribuição:**          | A distribuição dos tokens para os associados ocorrerá em quatro fases, conforme descrito abaixo: |
 |                                     |                                                                            |
-| 1º trimestre de 2024            | - 2.100.000 tokens: durante a primeira fase, distribuiremos 2.100.000 tokens para os primeiros associados, apoiadores e parceiros estratégicos. Esta fase visa gerar interesse inicial e estabelecer uma comunidade sólida para o token ASPPBR.   |
-|                                    |                                                                             |
-| 4º trimestre de 2024            | - 2.100.000 tokens: A segunda fase, programada para o quarto trimestre de 2024, envolverá a distribuição de 2.100.000 tokens adicionais. Esta fase visa alcançar um público mais amplo, permitindo que mais indivíduos participem da associação e sua governança.   |
-|                                    |                                                                             |
-| 2º trimestre de 2025            | - 4.200.000 Tokens: Na terceira fase, planejada para o segundo trimestre de 2025, realizaremos uma campanha para promover ainda mais o crescimento e adoção e atrair uma gama mais ampla de usuários. Um total de 4.200.000 tokens serão distribuidos para os associados que ingressar na ASPPIBRA-DAO durante esta fase. |
-|                                    |                                                                             |
-| 4º trimestre de 2026            | - 4.200.000 Tokens: A fase final está programada para o quarto trimestre de 2026, onde os 4.200.000 tokens restantes serão distribuídos. Esta fase visa expandir sua atuação em outros países e garantir a ampla adoção e crescimento da comunidade. |
-|                                    |                                                                             |
-| **Observação:**                    | Observe que as datas específicas para cada fase de distribuição, serão anunciadas com bastante antecedência, garantindo transparência e permitindo que os participantes interessados ​​se planejem adequadamente. Estamos empenhados em conduzir o processo de distribuição de tokens de governança com transparência, justiça e integridade, proporcionando igualdade de oportunidades para todos os participantes. |
+| **1º trimestre de 2024**            | - 2.100.000 tokens: Durante a primeira fase, distribuiremos 2.100.000 tokens para os primeiros associados, apoiadores e parceiros estratégicos. Esta fase visa gerar interesse inicial e estabelecer uma comunidade sólida para o token ASPPBR. |
+|                                     |                                                                            |
+| **4º trimestre de 2024**            | - 2.100.000 tokens: A segunda fase, programada para o quarto trimestre de 2024, envolverá a distribuição de 2.100.000 tokens adicionais. Esta fase visa alcançar um público mais amplo, permitindo que mais indivíduos participem da associação e sua governança. |
+|                                     |                                                                            |
+| **2º trimestre de 2025**            | - 4.200.000 tokens: Na terceira fase, planejada para o segundo trimestre de 2025, realizaremos uma campanha para promover ainda mais o crescimento e a adoção, atraindo uma gama mais ampla de usuários. Um total de 4.200.000 tokens será distribuído para os associados que ingressarem na ASPPIBRA-DAO durante esta fase. |
+|                                     |                                                                            |
+| **4º trimestre de 2026**            | - 4.200.000 tokens: A fase final está programada para o quarto trimestre de 2026, onde os 4.200.000 tokens restantes serão distribuídos. Esta fase visa expandir a atuação em outros países e garantir a ampla adoção e crescimento da comunidade. |
+|                                     |                                                                            |
+| **Observação:**                     | As datas específicas para cada fase de distribuição serão anunciadas com antecedência, garantindo transparência e permitindo que os participantes interessados se planejem adequadamente. Estamos empenhados em conduzir o processo de distribuição de tokens de governança com transparência, justiça e integridade, proporcionando igualdade de oportunidades para todos os participantes. |
 |                                     |                                                                            |
 | **Objetivo:**                       | Nosso objetivo principal é estabelecer um ecossistema sustentável e próspero para os usuários e associados da ASPPIBRA-DAO, permitindo que indivíduos e organizações se envolvam ativamente nos projetos e contribuam para seu sucesso a longo prazo. |
-|                                      |                                                                           |
+|                                     |                                                                            |
 
 # <h2 align="center">Alocação de Fundos:</h2>
 
