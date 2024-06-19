@@ -91,24 +91,7 @@ Este documento não deve ser interpretado como um prospecto ou uma oferta de val
 | **Objetivo do Fundo**         | Financiar as despesas e custos de manutenção para a implementação do projeto.                                                                                  |
 | **Reabastecimento do Fundo**  | - Mensalidades dos membros. <br> - Vendas de créditos de carbono. <br> - Vendas de NFTs. <br> - Taxas cobradas por meio do aplicativo. <br> - Prestação de serviços e consultoria. <br> - Parcerias com o setor privado. |
 | **Liquidez**                  | Os recursos serão mantidos como fundo para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
-                                                    |
-
-# <h2 align="center">Divisão de Recompensas:</h2>
-
-| Divisão de Recompensas    |                                                                                      |
-|---------------------------|--------------------------------------------------------------------------------------|
-|                                      |                                                                           |
-| **Receita do Projeto**    | Não fixa, mas sustentável.                                                           |
-|                                      |                                                                           |
-| **Percentual de Taxas**   | 70% de todas as taxas cobradas por serviços e consultas por meio do aplicativo serão distribuídas.                                  |
-|                                      |                                                                           |
-| **Royalties**             | Os Royalties serão distribuídos entre os associados e os profissionais que estejam em dia com suas obrigações.        |
-|                                      |                                                                           |
-| **Detentores de Tokens**  | 50% das taxas irão para os detentores de tokens.                                     |
-|                                      |                                                                           |
-| **Fundo Perpétuo**        | 30% serão mantidos como um fundo perpétuo.                                           |
-|                                      |                                                                           |
-| **Equipe de Desenvolvimento** | Os 20% restantes serão destinados à equipe de desenvolvimento e ao setor de Recursos Humanos.                                      |
+|
 
 # <h2 align="center">Pools de Liquidez:</h2>
 
