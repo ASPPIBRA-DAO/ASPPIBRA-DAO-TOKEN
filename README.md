@@ -141,7 +141,7 @@ transação extraída no blockchain mais rapidamente.
 ## Verificação de bytecode
 
 O contrato de proxy e os contratos de implementação são verificados no bscscan no seguinte link:
-[**Contrato Token:**] (<https://bscscan.com/bytecode-decompiler?a=0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c>).
+[Contrato Token:](https://bscscan.com/bytecode-decompiler?a=0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c).
 
 **Contrato proxy:** Em breve!!
 
