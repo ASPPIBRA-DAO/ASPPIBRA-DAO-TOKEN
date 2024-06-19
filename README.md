@@ -2,22 +2,25 @@
 
 ![Tokenomics](https://github.com/ASPPIBRA-DAO/Imagens/blob/95e4c54f8242f5aa36905615eb9e9c72001269c0/Svg/Tokenomics.svg)
 
-## Introdução
+# Introdução ASPPIBRA (ASPPBR)
 
-Bem-vindo à introdução do token ASPPBR. Este token serve como uma ferramenta segura e criptografada para governança e trocas descentralizadas.
-O Token foi construído na rede Binance SmartChain ( BSC ) e possui um suprimento total de 21 milhões de tokens.
+O token **ASPPBR** é uma ferramenta segura e criptografada projetada para facilitar a interação dos associados e usuários com os serviços e produtos administrados pela **ASPPIBRA-DAO**. Com ele, é possível acessar o sistema de governança e realizar trocas descentralizadas de maneira eficiente e segura. Construído na rede Binance Smart Chain (BSC), o **ASPPBR** possui um suprimento total de 21 milhões de tokens.
 
-O token ASPPBR tem uma variedade de usos práticos dentro do ecossistema blockchain. Ele pode ser usado em sistemas de votação digital para garantir justiça e transparência. Isso significa que os detentores de tokens têm voz nos processos de tomada de decisão e podem contribuir para o desenvolvimento do ecossistema.
+O **ASPPBR** oferece uma variedade de usos práticos dentro do ecossistema blockchain:
 
-Além disso, o token ASPPBR foi concebido com a finalidade de atuar como um mecanismo de Cashback, proporcionando reembolso de parte do valor gasto. Além disso, desempenha a função de Acúmulo de Pontos para nossos associados, possibilitando trocas fáceis e seguras. Os usuários podem converter seus pontos acumulados em produtos e serviços, garantindo acesso à liquidez para obter descontos e vantagens exclusivas por meio do nosso programa de fidelidade, por meio da ASPPIBRA-DAO.
+1. **Cashback**: Os usuários recebem reembolso de parte do valor gasto, incentivando o uso contínuo do token.
+2. **Acúmulo de Pontos**: Associados podem acumular pontos e convertê-los em produtos e serviços, obtendo descontos e vantagens exclusivas através do programa de fidelidade da **ASPPIBRA-DAO**.
+3. **Votação Digital**: O token pode ser utilizado em sistemas de votação, garantindo justiça e transparência. Os detentores de tokens têm voz ativa nos processos de tomada de decisão, contribuindo para o desenvolvimento do ecossistema.
 
-O token ASPPBR marca um marco significativo no mundo blockchain. Ele combina segurança, descentralização e praticidade para capacitar os usuários e revolucionar a forma como a governança e a troca de valor ocorrem dentro do ecossistema. Nas seções a seguir, exploraremos os recursos interessantes e o potencial do ASPPBR, revelando as possibilidades transformadoras que ele traz para o cenário blockchain.
+O **ASPPBR** representa um marco de inovação para a **ASPPIBRA-DAO** no cenário global, ampliando a interação entre usuários e associados dentro e fora do Brasil. Combinando criptografia, segurança, descentralização e praticidade, o token empodera os usuários e revoluciona a governança e as trocas no ecossistema blockchain.
+
+Nas seções a seguir, exploraremos detalhadamente os recursos e o potencial do token **ASPPBR**, destacando as possibilidades transformadoras que ele traz para o cenário blockchain.
 
 ### Observação
 
-Este documento não deve ser interpretado como um prospecto ou uma oferta de valores mobiliários, tampouco como a promoção de qualquer produto de investimento. A Tokenomics aqui apresentada tem como finalidade ser um instrumento didático para facilitar a compreensão do Token, suas funções e finalidade no ecossistema em construção para suas utilidades. O token ASPPBR não tem como objetivo ser considerado dinheiro digital, commodities ou um mecanismo de investimento, conforme expresso na Lei Nº 14.478, de 21 de Dezembro de 2022. Sua finalidade está claramente definida para facilitar a interação dos associados e usuários com a associação ASPPIBRA-DAO.
+Este documento não deve ser interpretado como um prospecto ou uma oferta de valores mobiliários, tampouco como a promoção de qualquer produto de investimento. A Tokenomics aqui apresentada tem como finalidade ser um instrumento didático para facilitar a compreensão do Token, suas funções e finalidade no ecossistema em construção para suas utilidades. O token **ASPPBR** não tem como objetivo ser considerado dinheiro digital, commodities ou um mecanismo de investimento, conforme expresso na Lei Nº 14.478, de 21 de Dezembro de 2022. Sua finalidade está claramente definida para facilitar a interação dos associados e usuários com a associação **ASPPIBRA-DAO**.
 
-É importante ressaltar que os tokens digitais ASPPBR não possuem natureza de títulos, conforme definido pelo artigo 2º da Lei nº 6.385 de 07 de Dezembro de 1976, que dispõe sobre o mercado de valores mobiliários. Adicionalmente, destaca-se que esses tokens não estão registrados como valores mobiliários em qualquer agência governamental e não devem ser tratados como tal.
+É importante ressaltar que os tokens digitais **ASPPBR** não possuem natureza de títulos, conforme definido pelo artigo 2º da Lei nº 6.385 de 07 de Dezembro de 1976, que dispõe sobre o mercado de valores mobiliários. Adicionalmente, destaca-se que esses tokens não estão registrados como valores mobiliários em qualquer agência governamental e não devem ser tratados como tal.
 
 # <h2 align="center">Explorando Métricas e Gráficos:</h2>
 
