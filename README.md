@@ -28,81 +28,47 @@ O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, comm
 
 |                     | Detalhes do Token                                  |
 |--------------------------------------|---------------------------------------------------------------------------|
-|                                      |                                                                           |
 | Padrão do Token                      | BEP-20                                                                    |
-|                                      |                                                                           |
-| Tags                                 | DAPP, DAO, DEFI, NFT, RWA                                                      |
-|                                      |                                                                           |
+| Tags                                 | DAPP, DAO, DEFI, NFT, RWA                                                  |
 | Nome do Token                        | ASPPIBRA                                                                  |
-|                                      |                                                                           |
 | Símbolo                              | ASPPBR                                                                    |
-|                                      |                                                                           |
 | Casas Decimais                       | 18                                                                        |
-|                                      |                                                                           |
 | Quantidade em Circulação             | 4.665 tokens                                                              |
-|                                      |                                                                           |
 | Pool de Liquidez V2                  | ASPPBR-WBNB (Pancakeswap): 1.129 tokens                                   |
-|                                      |                                                                           |
 | Pool de Liquidez V2                  | ASPPBR-USDT (Pancakeswap): 1.604 tokens                                   |
-|                                      |                                                                           |
 | Pool de Liquidez V2                  | ASPPBR-CTK (Biswap): 1.240 tokens                                         |
-|                                      |                                                                           |
 | Pool de Liquidez V2                  | ASPPBR-TWT (Pancakeswap): 692 tokens                                      |
-|                                      |                                                                           |
 | Permissão para criar novos tokens    | Não                                                                       |
-|                                      |                                                                           |
 | Quantidade (Supply)                  | 21.000.000                                                                |
-|                                      |                                                                           |
 | Quantidade Total (Max Supply)        | 21.000.000                                                                |
-|                                      |                                                                           |
 | Explorador Binance Smart Chain       | [Token ASPPBR no BSC](https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c) |
 
-<div align="center">
-    <a href="https://apespace.io/bsc/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c"><img alt="USDT" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/3e3ba015a9a04f30850469335ff000281593863f/Svg/USDT-sbg.svg"></a>
-    <a href="https://apespace.io/bsc/0xb9a2b08be15dc15e531b0d25b3942268da27b100"><img alt="BNB" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/3e3ba015a9a04f30850469335ff000281593863f/Svg/BNB-sbg.svg"></a>
-    <a href="https://dexscreener.com/bsc/0x7e407b49206436238306a651d0e7951639a11732"><img alt="CTK" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/3e3ba015a9a04f30850469335ff000281593863f/Svg/CTK-sbg.svg"></a>
-    <a href="https://www.dexview.com/bsc/0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C"><img alt="TWT" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/3e3ba015a9a04f30850469335ff000281593863f/Svg/TWT-sbg.svg"></a>
-    <a href="https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c?a=0xDfcE227bf1FfBBbec6410c2C2E22873293e6b56F"><img alt="BSCSCAN" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/9968dd77c223dc881dc3f7bf48e557f9d214b266/Svg/Bscscan.svg"></a>
-    <a href="https://coinmarketcap.com/dexscan/bsc/0x4f287dd8b2b02aa8885ab9c6ddce876d1031268b"><img alt="COINMARKETCAP" height="40" width="60" src="https://github.com/ASPPIBRA-DAO/Imagens/blob/9968dd77c223dc881dc3f7bf48e557f9d214b266/Svg/Coinmarktcap.svg"></a>
-</div>
-
-<h2 align="center"></h2>
-
 |                                     | Distribuição dos Tokens                             |
-|-------------------------------------|----------------------------------------------------------------------------|
-|                                     |                                                                            |
-| **Associados**    | Destinamos 60% para distribuição aos associados, totalizando 12.600.000  tokens. |
-|   |   |
-| **Dev** | Destinamos 10% para o time de desenvolvimento, totalizando 2.100.000  tokens. |
-|   |   |
-| **Pool de Liquidez**                | Destinamos 30% para o pool de liquidez, totalizando 6.300.000 tokens, para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
-|                                     |                                                                            |
-| **Fases de Distribuição:**          | A distribuição dos tokens para os associados ocorrerá em quatro fases, conforme descrito abaixo: |
-|                                     |                                                                            |
-| **1º trimestre de 2024**            | - 2.100.000 tokens: Durante a primeira fase, distribuiremos 2.100.000 tokens para os primeiros associados, apoiadores e parceiros estratégicos. Esta fase visa gerar interesse inicial e estabelecer uma comunidade sólida para o token ASPPBR. |
-|                                     |                                                                            |
-| **4º trimestre de 2024**            | - 2.100.000 tokens: A segunda fase, programada para o quarto trimestre de 2024, envolverá a distribuição de 2.100.000 tokens adicionais. Esta fase visa alcançar um público mais amplo, permitindo que mais indivíduos participem da associação e sua governança. |
-|                                     |                                                                            |
-| **2º trimestre de 2025**            | - 4.200.000 tokens: Na terceira fase, planejada para o segundo trimestre de 2025, realizaremos uma campanha para promover ainda mais o crescimento e a adoção, atraindo uma gama mais ampla de usuários. Um total de 4.200.000 tokens será distribuído para os associados que ingressarem na ASPPIBRA-DAO durante esta fase. |
-|                                     |                                                                            |
-| **4º trimestre de 2026**            | - 4.200.000 tokens: A fase final está programada para o quarto trimestre de 2026, onde os 4.200.000 tokens restantes serão distribuídos. Esta fase visa expandir a atuação em outros países e garantir a ampla adoção e crescimento da comunidade. |
-|                                     |                                                                            |
-| **Observação:**                     | As datas específicas para cada fase de distribuição serão anunciadas com antecedência, garantindo transparência e permitindo que os participantes interessados se planejem adequadamente. Estamos empenhados em conduzir o processo de distribuição de tokens de governança com transparência, justiça e integridade, proporcionando igualdade de oportunidades para todos os participantes. |
-|                                     |                                                                            |
-| **Objetivo:**                       | Nosso objetivo principal é estabelecer um ecossistema sustentável e próspero para os usuários e associados da ASPPIBRA-DAO, permitindo que indivíduos e organizações se envolvam ativamente nos projetos e contribuam para seu sucesso a longo prazo. |
-|                                     |                                                                            |
+|-------------------------------------|------------------------------------------------------|
+| **Associados**                      | 60% (12.600.000 tokens)                              |
+| **Dev**                             | 10% (2.100.000 tokens)                               |
+| **Pool de Liquidez**                | 30% (6.300.000 tokens)                               |
 
-# <h2 align="center"></h2>
+| **Fases de Distribuição:**          |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| **1º trimestre de 2024**            | 2.100.000 tokens                                     |
+| **4º trimestre de 2024**            | 2.100.000 tokens                                     |
+| **2º trimestre de 2025**            | 4.200.000 tokens                                     |
+| **4º trimestre de 2026**            | 4.200.000 tokens                                     |
+
+| **Observação:**                     |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| As datas específicas para cada fase de distribuição serão anunciadas com antecedência, garantindo transparência e permitindo que os participantes interessados se planejem adequadamente. Estamos empenhados em conduzir o processo de distribuição de tokens de governança com transparência, justiça e integridade, proporcionando igualdade de oportunidades para todos os participantes. |
+
+| **Objetivo:**                       |                                                      |
+|-------------------------------------|------------------------------------------------------|
+| Nosso objetivo principal é estabelecer um ecossistema sustentável e próspero para os usuários e associados da ASPPIBRA-DAO, permitindo que indivíduos e organizações se envolvam ativamente nos projetos e contribuam para seu sucesso a longo prazo. |
 
 |                                | Alocação de Fundos                                                                                                                       |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   |   |
 | **Distribuição Primária**     | 100% dos recursos gerados serão destinados ao fundo Mundo Digital.                                                                                             |
-|   |   |
 | **Objetivo do Fundo**         | Financiar as despesas e custos de manutenção para a implementação do projeto.                                                                                  |
-|   |   |
 | **Reabastecimento do Fundo**  | - Mensalidades dos membros. <br> - Vendas de créditos de carbono. <br> - Vendas de NFTs. <br> - Taxas cobradas por meio do aplicativo. <br> - Prestação de serviços e consultoria. <br> - Parcerias com o setor privado. |
-|   |   |
 | **Liquidez**                  | Os recursos serão mantidos como fundo para garantir liquidez e sustentabilidade no desenvolvimento e crescimento do projeto e da comunidade nos ciclos futuros. |
 
 # ASPPIBRA (ASPPBR)
