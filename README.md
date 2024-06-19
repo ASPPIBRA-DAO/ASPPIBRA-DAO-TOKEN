@@ -1,4 +1,4 @@
-# [Tokenomics do Token ASPPBR](https://www.asppibra.com.br/home/about_us/)
+# [Tokenomics](https://www.asppibra.com.br/home/about_us/)
 
 ![Tokenomics](https://github.com/ASPPIBRA-DAO/Imagens/blob/95e4c54f8242f5aa36905615eb9e9c72001269c0/Svg/Tokenomics.svg)
 
@@ -95,89 +95,89 @@ Este documento não deve ser interpretado como um prospecto ou uma oferta de val
 
 # ASPPIBRA (ASPPBR)
 
-Repository of ERC20 standard public smart contracts implemented on the BEP20 standard Binance Smart Chain Blockchain with US dollar (USDT) collateral issued by Tether.
+Repositório de contratos inteligentes públicos padrão ERC20 implementados no padrão BEP20 Binance Smart Chain Blockchain com garantia em dólares americanos (USDT) emitida pela Tether.
 
-## ABI, address and verification
+## ABI, endereço e verificação
 
-The abi contract is in `ASPPBR.abi`. It is the abi of the implementation contract.
-Interaction with ASPPBR is done at the contract address at `0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C`. To see
-<https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code#L1> for live on-chain details and the section on bytecode verification below.
+O contrato abi está em `ASPPBR.abi`. É o abi do contrato de implementação.
+A interação com o ASPPBR é feita no endereço do contrato em `0x0697AB2B003FD2Cbaea2dF1ef9b404E45bE59d4C`. Ver
+<https://bscscan.com/token/0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c#code#L1> para obter detalhes ao vivo na cadeia e a seção sobre verificação de bytecode abaixo.
 
-## Contract specification
+## Especificação do contrato
 
-ASPPIBRA (ASPPBR) is a BEP20 token that is centrally minted by ASPPIBRA-DAO,
-representing the trusted party backing the token in (USDT) US dollars issued by Tether.
+ASPPIBRA (ASPPBR) é um token BEP20 cunhado centralmente pela ASPPIBRA-DAO,
+representando a parte confiável que respalda o token em dólares americanos (USDT) emitido pela Tether.
 
-### BEP20 Token
+### Token BEP20
 
-The public interface of ASPPBR is the BEP20 interface
-specified by [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md).
+A interface pública do ASPPBR é a interface BEP20
+especificado por [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md).
 
-- `name()`
-- `symbol()`
-- `decimals()`
-- `totalSupply()`
-- `balanceOf(address who)`
-- `transfer(address to, uint256 value)`
-- `approve(address spender, uint256 value)`
-- `allowance(address owner, address spender)`
-- `transferFrom(address from, address to, uint256 value)`
+- `nome()`
+- `símbolo()`
+- `decimais()`
+- `totalSuprimento()`
+- `balanceOf(endereço quem)`
+- `transferir (endereço para, valor uint256)`
+- `aprovar (endereço gastador, valor uint256)`
+- `subsídio (proprietário do endereço, gastador do endereço)`
+- `transferFrom(endereço de, endereço para, valor uint256)`
 
-And the usual events.
+E os eventos habituais.
 
-- `event Transfer(address indexed from, address indexed to, uint256 value)`
-- `event Approval(address indexed owner, address indexed spender, uint256 value)`
+- `Transferência de evento (endereço indexado de, endereço indexado para, valor uint256)`
+- `Aprovação do evento (proprietário indexado pelo endereço, gastador indexado pelo endereço, valor uint256)`
 
-Typical interaction with the contract will use `transfer` to move the token as payment.
-Additionally, a pattern involving `approve` and `transferFrom` can be used to allow another
-address to move tokens from your address to a third party without the need for the middleperson
-to custody the tokens, such as in the 0x protocol.
+A interação típica com o contrato usará `transferência` para mover o token como pagamento.
+Além disso, um padrão envolvendo `approve` e `transferFrom` pode ser usado para permitir outro
+endereço para mover tokens do seu endereço para terceiros sem a necessidade do intermediário
+para custodiar os tokens, como no protocolo 0x.
 
-#### Warning about ERC20 approve front-running
+#### Aviso sobre ERC20 aprovar front-running
 
-There is a well known gotcha involving the ERC20 `approve` method. The problem occurs when the owner decides
-to change the allowance of a spender that already has an allowance. If the spender sends a `transferFrom`
-transaction at a similar time that the owner sends the new `approve` transaction
-and the `transferFrom` by the spender goes through first, then the spender gets to use the
-original allowance, and also get approved for the intended new allowance.
+Existe uma pegadinha bem conhecida envolvendo o método ERC20 `approve`. O problema ocorre quando o proprietário decide
+alterar o subsídio de um gastador que já possui um subsídio. Se o gastador enviar um `transferFrom`
+transação no mesmo momento em que o proprietário envia a nova transação `aprovada`
+e o `transferFrom` do gastador passa primeiro, então o gastador pode usar o
+subsídio original, e também ser aprovado para o novo subsídio pretendido.
 
-The recommended mitigation in cases where the owner does not trust the spender is to
-first set the allowance to zero before setting it to a new amount, checking that the
-allowance was not spent before sending the new approval transaction. Note, however, that any
-allowance change is subject to front-running, which is as simple as watching the
-mempool for certain transactions and then offering a higher gas price to get another
-transaction mined onto the blockchain more quickly.
+A mitigação recomendada nos casos em que o proprietário não confia no gastador é
+primeiro definir o subsídio para zero antes de defini-lo para um novo valor, verificando se o
+o subsídio não foi gasto antes do envio da nova transação de aprovação. Note-se, no entanto, que qualquer
+mudança de subsídio está sujeita a front-running, que é tão simples quanto observar o
+mempool para certas transações e, em seguida, oferecendo um preço de gás mais alto para obter outro
+transação extraída no blockchain mais rapidamente.
 
-## Bytecode check
+## Verificação de bytecode
 
-The proxy contract and implementation contracts are verified on etherscan at the following links:
-Token:
+O contrato de proxy e os contratos de implementação são verificados no etherscan nos seguintes links:
+Símbolo:
 <https://bscscan.com/bytecode-decompiler?a=0x0697ab2b003fd2cbaea2df1ef9b404e45be59d4c>
 
-proxy: Coming soon!!
+proxy: Em breve!!
 
-Since the implementation address in the proxy is a private variable,
-verifying that this is the proxy being used requires reading the contract
-storage directly. This can be done using a mainnet node such as infura,
-pasting the network address into `truffle-config.js` and running
+Como o endereço de implementação no proxy é uma variável privada,
+verificar se este é o proxy que está sendo usado requer a leitura do contrato
+armazenamento diretamente. Isso pode ser feito usando um nó mainnet como infura,
+colando o endereço de rede em `truffle-config.js` e executando
 
 `truffle exec ./getImplementationAddress.js --network mainnet`
 
-## Contract Tests
+## Testes de contrato
 
-As a first step, perform the initial configuration
+Como primeiro passo, execute a configuração inicial
 
-`make configuration`
+`fazer configuração`
 
-Then, to run the smart contract tests, in another terminal, launch ganache-cli
+Então, para executar os testes do contrato inteligente, em outro terminal, inicie o ganache-cli
 
-`make ganache`
+`fazer ganache`
 
-Then, in the original terminal where the configuration was performed, run
+Em seguida, no terminal original onde foi realizada a configuração, execute
 
-`make test contracts`
+`fazer contratos de teste`
 
-You can also run `make test-contracts-coverage` to see a coverage report.
+Você também pode executar `make test-contracts-coverage` para ver um relatório de cobertura.
 
 ## <h2 align="center">🎁 Doe Crypto:</h2>
 
