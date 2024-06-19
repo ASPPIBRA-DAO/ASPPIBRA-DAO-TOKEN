@@ -18,9 +18,11 @@ Nas seções a seguir, exploraremos detalhadamente os recursos e o potencial do 
 
 ### Observação
 
-Este documento não deve ser interpretado como um prospecto ou uma oferta de valores mobiliários, tampouco como a promoção de qualquer produto de investimento. A Tokenomics aqui apresentada tem como finalidade ser um instrumento didático para facilitar a compreensão do Token, suas funções e finalidade no ecossistema em construção para suas utilidades. O token **ASPPBR** não tem como objetivo ser considerado dinheiro digital, commodities ou um mecanismo de investimento, conforme expresso na Lei Nº 14.478, de 21 de Dezembro de 2022. Sua finalidade está claramente definida para facilitar a interação dos associados e usuários com a associação **ASPPIBRA-DAO**.
+Este documento não deve ser interpretado como um prospecto ou uma oferta de valores mobiliários, tampouco como a promoção de qualquer produto de investimento. A Tokenomics aqui apresentada tem a finalidade de ser um instrumento didático, facilitando a compreensão do Token, suas funções e sua finalidade no ecossistema em construção.
 
-É importante ressaltar que os tokens digitais **ASPPBR** não possuem natureza de títulos, conforme definido pelo artigo 2º da Lei nº 6.385 de 07 de Dezembro de 1976, que dispõe sobre o mercado de valores mobiliários. Adicionalmente, destaca-se que esses tokens não estão registrados como valores mobiliários em qualquer agência governamental e não devem ser tratados como tal.
+O token **ASPPBR** não tem o objetivo de ser considerado dinheiro digital, commodities ou um mecanismo de investimento, conforme expresso na Lei Nº 14.478, de 21 de dezembro de 2022. Sua finalidade está claramente definida para facilitar a interação dos associados e usuários com a associação **ASPPIBRA-DAO**.
+
+É importante ressaltar que os tokens digitais **ASPPBR** não possuem a natureza de títulos, conforme definido pelo artigo 2º da Lei Nº 6.385 de 7 de dezembro de 1976, que dispõe sobre o mercado de valores mobiliários. Além disso, destaca-se que esses tokens não estão registrados como valores mobiliários em qualquer agência governamental e não devem ser tratados como tal.
 
 # <h2 align="center">Explorando Métricas e Gráficos:</h2>
 
