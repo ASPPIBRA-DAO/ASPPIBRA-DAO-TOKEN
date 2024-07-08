@@ -1,6 +1,6 @@
 # [Tokenomics](https://www.asppibra.com.br/home/about_us/)
 
-![Tokenomics](https://github.com/ASPPIBRA-DAO/Imagens/blob/95e4c54f8242f5aa36905615eb9e9c72001269c0/Svg/Tokenomics.svg)
+![Tokenomics](https://github.com/ASPPIBRA-DAO/Imagens/blob/ab58cdf4e9a689073575bc367b110bf0580f4182/Svg/TOKENOMICS.svg)
 
 # Introdução ASPPIBRA (ASPPBR)
 
