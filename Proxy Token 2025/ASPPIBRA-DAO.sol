@@ -1,28 +1,22 @@
 // SPDX-License-Identifier: MIT
-// Compatible with OpenZeppelin Contracts ^5.0.0
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.22;
 
-import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PausableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/access/AccessControl.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
+import { AccessControl } from "@openzeppelin/contracts/access/AccessControl.sol";
+import { Pausable } from "@openzeppelin/contracts/security/Pausable.sol";
+import { ReentrancyGuard } from "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import { EnumerableSet } from "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
+import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
+// Definição de papéis de controle de acesso
+bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
+bytes32 public constant PROPOSER_ROLE = keccak256("PROPOSER_ROLE");
+
+// Definição do contrato de governança
 contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
     using EnumerableSet for EnumerableSet.AddressSet;
 
-    // Definição de papéis de controle de acesso
-    bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
-    bytes32 public constant PROPOSER_ROLE = keccak256("PROPOSER_ROLE");
-
-    // Token utilizado para governança
     IERC20 public token;
+    uint256 public quorumPercentage = 20;  // Percentual do supply total necessário para quórum
 
     // Estrutura de uma proposta
     struct Proposal {
@@ -40,14 +34,11 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
     mapping(uint256 => Proposal) public proposals;
     uint256 public proposalCount;
 
-    // Listas de controle (blacklist e whitelist)
+    // Controle de whitelist e blacklist
     EnumerableSet.AddressSet private blacklist;
     EnumerableSet.AddressSet private whitelist;
 
-    // Definição de quórum para votação (percentual do supply total)
-    uint256 public quorumPercentage = 20;
-
-    // Registro de votos para cada proposta
+    // Registro de votos
     mapping(uint256 => mapping(address => bool)) public hasVoted;
     mapping(uint256 => mapping(address => address)) public delegatedVotes;
 
@@ -63,20 +54,19 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
     event UserRemovedFromWhitelist(address indexed user);
     event Deposited(address indexed user, uint256 amount);
 
-    // Construtor
     constructor(address _token) {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         token = IERC20(_token);
     }
 
-    // Criar uma nova proposta (somente PROPOSER_ROLE)
+    // Criar uma nova proposta
     function createProposal(address target, bytes memory data, uint256 duration) external onlyRole(PROPOSER_ROLE) whenNotPaused {
         proposals[proposalCount] = Proposal(target, data, 0, 0, block.timestamp, block.timestamp + duration, token.balanceOf(msg.sender), false);
         emit ProposalCreated(proposalCount, msg.sender);
         proposalCount++;
     }
 
-    // Votar em uma proposta (qualquer detentor de tokens)
+    // Votar em uma proposta
     function vote(uint256 proposalId, bool support) external whenNotPaused {
         require(proposalId < proposalCount, "Proposta inexistente");
         require(block.timestamp >= proposals[proposalId].startTime, "Voting not started yet");
@@ -90,7 +80,6 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
         Proposal storage proposal = proposals[proposalId];
         address voter = msg.sender;
 
-        // Se o voto for delegado
         if (delegatedVotes[proposalId][msg.sender] != address(0)) {
             voter = delegatedVotes[proposalId][msg.sender];
         }
@@ -115,7 +104,7 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
         delegatedVotes[proposalId][msg.sender] = to;
     }
 
-    // Executar uma proposta caso o quórum seja atingido (somente ADMIN_ROLE)
+    // Executar uma proposta caso o quórum seja atingido
     function executeProposal(uint256 proposalId) external nonReentrant onlyRole(ADMIN_ROLE) {
         require(proposalId < proposalCount, "Proposta inexistente");
 
@@ -139,7 +128,7 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
         emit Deposited(msg.sender, amount);
     }
 
-    // Retirar tokens do contrato (somente ADMIN_ROLE)
+    // Retirar tokens do contrato
     function withdraw(uint256 amount, address recipient) external onlyRole(ADMIN_ROLE) {
         require(token.balanceOf(address(this)) >= amount, "Insufficient funds");
         require(!blacklist.contains(recipient), "Recipient is blacklisted");
@@ -147,20 +136,20 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
         emit FundsWithdrawn(recipient, amount);
     }
 
-    // Alocar fundos para um endereço (somente ADMIN_ROLE)
+    // Alocar fundos para um endereço
     function allocateFunds(address recipient, uint256 amount) external onlyRole(ADMIN_ROLE) {
         require(token.balanceOf(address(this)) >= amount, "Insufficient funds");
         token.transfer(recipient, amount);
         emit FundsAllocated(recipient, amount);
     }
 
-    // Adicionar usuário à blacklist (somente ADMIN_ROLE)
+    // Adicionar usuário à blacklist
     function addToBlacklist(address user) external onlyRole(ADMIN_ROLE) {
         blacklist.add(user);
         emit UserAddedToBlacklist(user);
     }
 
-    // Remover usuário da blacklist (somente ADMIN_ROLE)
+    // Remover usuário da blacklist
     function removeFromBlacklist(address user) external onlyRole(ADMIN_ROLE) {
         blacklist.remove(user);
         emit UserRemovedFromBlacklist(user);
@@ -171,13 +160,13 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
         return blacklist.contains(user);
     }
 
-    // Adicionar usuário à whitelist (somente ADMIN_ROLE)
+    // Adicionar usuário à whitelist
     function addToWhitelist(address user) external onlyRole(ADMIN_ROLE) {
         whitelist.add(user);
         emit UserAddedToWhitelist(user);
     }
 
-    // Remover usuário da whitelist (somente ADMIN_ROLE)
+    // Remover usuário da whitelist
     function removeFromWhitelist(address user) external onlyRole(ADMIN_ROLE) {
         whitelist.remove(user);
         emit UserRemovedFromWhitelist(user);
@@ -188,7 +177,7 @@ contract ASPPIBRADAO is AccessControl, Pausable, ReentrancyGuard {
         return whitelist.contains(user);
     }
 
-    // Ajustar o quórum (somente ADMIN_ROLE)
+    // Ajustar o quórum
     function setQuorumPercentage(uint256 newQuorumPercentage) external onlyRole(ADMIN_ROLE) {
         quorumPercentage = newQuorumPercentage;
     }
