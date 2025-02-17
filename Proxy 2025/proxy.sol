@@ -24,7 +24,14 @@ contract Proxy is Ownable {
     address public daoAddress;
     address public stakingAddress;
 
+    event TokensTransferred(address indexed recipient, uint256 amount);
+    event ProposalVoted(address indexed proposal);
+    event TokensStaked(uint256 amount);
+    event TokensUnstaked(uint256 amount);
+    event ContractsUpdated(address newToken, address newDao, address newStaking);
+
     constructor(address _tokenAddress, address _daoAddress, address _stakingAddress) {
+        require(_tokenAddress != address(0) && _daoAddress != address(0) && _stakingAddress != address(0), "Endereço inválido");
         tokenAddress = _tokenAddress;
         daoAddress = _daoAddress;
         stakingAddress = _stakingAddress;
@@ -33,6 +40,7 @@ contract Proxy is Ownable {
     // Funções de token
     function transferTokens(address recipient, uint256 amount) external onlyOwner {
         require(IToken(tokenAddress).transfer(recipient, amount), "Falha na transferência");
+        emit TokensTransferred(recipient, amount);
     }
 
     function getTokenBalance(address user) external view returns (uint256) {
@@ -41,7 +49,9 @@ contract Proxy is Ownable {
 
     // Funções de governança (DAO)
     function voteOnProposal(address proposal) external onlyOwner {
+        require(proposal != address(0), "Proposta inválida");
         IGovernance(daoAddress).vote(proposal);
+        emit ProposalVoted(proposal);
     }
 
     function getVotingPower(address user) external view returns (uint256) {
@@ -50,21 +60,27 @@ contract Proxy is Ownable {
 
     // Funções de staking
     function stakeTokens(uint256 amount) external onlyOwner {
+        require(amount > 0, "Valor inválido");
         IStaking(stakingAddress).stake(amount);
+        emit TokensStaked(amount);
     }
 
     function unstakeTokens(uint256 amount) external onlyOwner {
+        require(amount > 0, "Valor inválido");
         IStaking(stakingAddress).unstake(amount);
+        emit TokensUnstaked(amount);
     }
 
     function getStakedAmount(address user) external view returns (uint256) {
         return IStaking(stakingAddress).getStakedAmount(user);
     }
 
-    // Função para alterar os contratos, se necessário
+    // Atualizar contratos
     function updateContracts(address _tokenAddress, address _daoAddress, address _stakingAddress) external onlyOwner {
+        require(_tokenAddress != address(0) && _daoAddress != address(0) && _stakingAddress != address(0), "Endereço inválido");
         tokenAddress = _tokenAddress;
         daoAddress = _daoAddress;
         stakingAddress = _stakingAddress;
+        emit ContractsUpdated(_tokenAddress, _daoAddress, _stakingAddress);
     }
 }
