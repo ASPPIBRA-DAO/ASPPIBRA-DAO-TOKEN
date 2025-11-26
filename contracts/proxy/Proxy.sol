@@ -30,8 +30,8 @@ contract Proxy is Ownable {
     event TokensUnstaked(uint256 amount);
     event ContractsUpdated(address newToken, address newDao, address newStaking);
 
-    constructor(address _tokenAddress, address _daoAddress, address _stakingAddress) {
-        require(_tokenAddress != address(0) && _daoAddress != address(0) && _stakingAddress != address(0), "Endereço inválido");
+    constructor(address _tokenAddress, address _daoAddress, address _stakingAddress) Ownable(msg.sender) {
+        require(_tokenAddress != address(0) && _daoAddress != address(0) && _stakingAddress != address(0), "Endereco invalido");
         tokenAddress = _tokenAddress;
         daoAddress = _daoAddress;
         stakingAddress = _stakingAddress;
@@ -39,7 +39,7 @@ contract Proxy is Ownable {
 
     // Funções de token
     function transferTokens(address recipient, uint256 amount) external onlyOwner {
-        require(IToken(tokenAddress).transfer(recipient, amount), "Falha na transferência");
+        require(IToken(tokenAddress).transfer(recipient, amount), "Falha na transferencia");
         emit TokensTransferred(recipient, amount);
     }
 
@@ -49,7 +49,7 @@ contract Proxy is Ownable {
 
     // Funções de governança (DAO)
     function voteOnProposal(address proposal) external onlyOwner {
-        require(proposal != address(0), "Proposta inválida");
+        require(proposal != address(0), "Proposta invalida");
         IGovernance(daoAddress).vote(proposal);
         emit ProposalVoted(proposal);
     }
@@ -60,13 +60,13 @@ contract Proxy is Ownable {
 
     // Funções de staking
     function stakeTokens(uint256 amount) external onlyOwner {
-        require(amount > 0, "Valor inválido");
+        require(amount > 0, "Valor invalido");
         IStaking(stakingAddress).stake(amount);
         emit TokensStaked(amount);
     }
 
     function unstakeTokens(uint256 amount) external onlyOwner {
-        require(amount > 0, "Valor inválido");
+        require(amount > 0, "Valor invalido");
         IStaking(stakingAddress).unstake(amount);
         emit TokensUnstaked(amount);
     }
@@ -77,7 +77,7 @@ contract Proxy is Ownable {
 
     // Atualizar contratos
     function updateContracts(address _tokenAddress, address _daoAddress, address _stakingAddress) external onlyOwner {
-        require(_tokenAddress != address(0) && _daoAddress != address(0) && _stakingAddress != address(0), "Endereço inválido");
+        require(_tokenAddress != address(0) && _daoAddress != address(0) && _stakingAddress != address(0), "Endereco invalido");
         tokenAddress = _tokenAddress;
         daoAddress = _daoAddress;
         stakingAddress = _stakingAddress;
